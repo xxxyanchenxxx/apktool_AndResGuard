@@ -1,4 +1,4 @@
-**修复apktool回编译时AndroidResGuard处理过的APK报错问题：**
+**修复apktool回编译时被AndroidResGuard处理过的APK报错问题：**
 
 No resource identifier found for attribute 'layout' in package 'com.tencent.mm'
 
