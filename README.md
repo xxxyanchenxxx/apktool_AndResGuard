@@ -1,8 +1,12 @@
-**修复apktool回编译时被AndroidResGuard处理过的APK报错问题：**
+**修复apktool重打包时APK由于AndroidResGuard处理报错问题：**
 
+具体报错信息
 No resource identifier found for attribute 'layout' in package 'com.tencent.mm'
 
 No resource identifier found for attribute 'key' in package 'com.tencent.mm'
+
+No resource identifier found for attribute...
+No resource found that matches the given name.....
 
 .......
 
@@ -11,4 +15,4 @@ No resource identifier found for attribute 'key' in package 'com.tencent.mm'
 
 而使用apktool-2.3.2和原包大小一样，65M左右。
 
-所以基于**apktool 2.3.2**源码进行了一些处理。
+基于**apktool 2.3.2**源码进行了一些处理。
