@@ -5,7 +5,9 @@ No resource identifier found for attribute 'layout' in package 'com.tencent.mm'
 
 No resource identifier found for attribute 'key' in package 'com.tencent.mm'
 
+
 No resource identifier found for attribute...
+
 No resource found that matches the given name.....
 
 .......
